@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: url('background-page.png');
+    background-size: cover;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    color: #000;
+}
+
+
+.container{
+   position: relative;
+    width: 100%;
+    height: 100%;
+
+}
+.conteudo{
+    position: relative;
+    width: 540px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    padding: 20px 40px;
+    margin-left: 40px;
+    top: 90px;
+    
+}
+.conteudo h2{
+    font-size: 43px;
+    line-height: 1.1em;
+    position: relative;
+    font-weight: 900;
+    
+}
+div.text-apresentacao{
+    top: 20px;
+    position: relative;
+    max-width: 440px;
+}
+div.text-apresentacao p{
+    font-size: 19px;
+}
+
+/*div-1*/
+.tres-listas{
+    position: relative;
+    top:35px;
+    left: 20px;
+    margin-bottom: 50px;
+}
+.tres-listas ul{
+    font-size: 1.8em;
+    list-style:disc 20px;
+    display: block;
+}
+.tres-listas li{
+    font-size: 0.8em;
+    line-height: 1.4em;
+}
+/*div-1*/
+
+/*div-2*/
+.div-2{
+    margin-top: 20px;
+}
+.cinco-icones{
+    position: relative;
+    margin-bottom: 30px;
+}
+.cinco-icones ul{
+    font-size: 17px;
+    display: block;
+    font-weight: 900;
+    list-style: none;
+}
+.cinco-icones li{
+    display: inline-block;
+    position: relative;
+    top: 40px;
+    right:2px;
+    padding: 10px 5px;
+}
+
+.img-icon{
+    width: 55px;
+    position: absolute;
+    bottom: 1px;
+    left: 5px;
+    display: flex;
+    margin: auto;
+    align-items: center;
+
+}
+.img-icon2{
+    width: 55px;
+    position: absolute;
+    bottom: 1px;
+    left: 80px;
+    margin: auto;
+   
+}
+.img-icon3{
+    width: 55px;
+    position: absolute;
+    bottom: 1px;
+}
+.img-icon4{
+    width: 55px;
+    position: absolute;
+    bottom: 1px;
+}
+.img-icon5{
+    width: 55px;
+    position: absolute;
+    bottom: 1px;
+}
+li.icon5{
+    position: relative;
+    bottom: 1px;
+    top: 10px;
+}
+div.div-text-h4{
+    position: relative;
+    
+}
+img.img-logo-conteudo{
+    width: 120px;
+    position: absolute;
+    top: 60px;
+}
+div.div-text-h4 h4{
+    position: relative;
+    top: 170px;
+    left: 4px;
+    font-size: 1.5em;
+}
+/*div-2*/
+div.btn{
+    position: relative;
+    top: 40px;
+}
+.btn button{
+    display: block;
+    border: none;
+    padding: 2px 4px;
+    width: 200px;
+    border-radius: 8px;
+}
+a.btn-a{
+   text-decoration: none;
+   color: #292929;
+   font-size: 1.4em;
+   font-weight: 900;
+}
+
+
+/*FORMUALRIO*/
+
+
+
+.form-login{
+    background: #fff;
+    position: relative;
+    padding: 20px 25px;
+    width: 280px;
+    border-radius: 4px;
+    border: none;
+    height: 390px;
+    left: 940px;
+    bottom: 325px;
+    margin: auto;
+    display: block;
+    flex-direction: column;
+    float: right;
+    color: #000;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 3px 1px -2px rgba(0,0,0,0.12), 0 1px 5px 0 rgba(0,0,0,0.2);
+}
+.logo-img{
+    width: 150px;
+    margin: auto;
+    align-items: center;
+    color: #009CAE;
+    padding: 20px 63px;
+}
+.text-login{
+    font-size: 2.7em;
+}
+sup{
+    position: relative;
+    bottom: 5px;
+    font-weight: bold;
+}
+button.btn-acesso{
+    background: #4CAF50;
+    padding: 2px 5px;
+    border-radius: 4px;
+    border:none;
+    position: relative;
+    bottom: 5px;
+    color: #fff;
+    text-align: center;
+}
+input.entradas{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #000;
+    margin: 20px auto;
+    width: 100%;
+    line-height: 24px;
+    border-top: none;
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    outline: 2px none;
+    outline-color: #000;
+}
+input.entradas:focus{
+   
+}
+div.section-btn{
+    
+    padding: 1px;
+    position: relative;
+    top: 20px;
+}
+.btn-limpar{
+    padding: 6px 43px;
+    border-radius: 12px;
+    border: none;
+    background: #A9A9A9;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.btn-entrar { 
+    padding: 6px 44px;
+    border-radius: 12px;
+    border: none;
+    background: #009CAE;
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+
+.text-ip p{
+    float: right;
+    position: relative;
+    display: block;
+    font-size: 0.8em;
+    top: 40px;
+}
+
